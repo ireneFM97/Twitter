@@ -1,0 +1,216 @@
+{% load static %}
+    {% block link %}
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+              rel="stylesheet">
+        <link rel="stylesheet"
+              href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"/>
+        <link rel="icon" type="image/jpg" href="https://cdn-icons-png.flaticon.com/512/733/733579.png"/>
+        <link rel="stylesheet" href="{% static 'twitter/css/style.css' %}">
+        <link rel="stylesheet" href="{% static 'twitter/css/normalize.css' %}">
+    {% endblock %}
+{% block content %}
+    <aside class="container-aside">
+        <img src="https://cdn.icon-icons.com/icons2/1584/PNG/512/3721677-twitter_108058.png" alt="icono-twitter">
+        <div class="explorar negrita">
+            <span class="material-icons">tag</span>
+            <p class="palabraD">Explorar</p>
+        </div>
+        <div class="configuracion">
+            <span class="material-icons">settings</span>
+            <p class="color-grey palabraD">Configuración</p>
+        </div>
+    </aside>
+    <!----------------------------------CENTRAL------------------------------------------------------------>
+    <main class="container-main">
+        <header class="header">
+            <nav class="nav-top">
+                <span class="material-symbols-outlined">keyboard_backspace</span>
+                <div class="barra-navegacion">
+                    <span class="material-symbols-outlined color-grey">search</span>
+                    <input type="text" name="" id="" placeholder="Microsoft">
+                </div>
+                <span class="material-icons">more_horiz</span>
+            </nav>
+            <nav class="nav-button">
+                <p class="negrita color-black">Destacado</p>
+                <p>Más reciente</p>
+                <p>Personas</p>
+                <p>Fotos</p>
+                <p>Videos</p>
+            </nav>
+            <div class="blue-line"></div>
+        </header>
+        <!---------------------------------------TERMINA EL HEADER------------------------------------------------------->
+        <section class="container-twets">
+            <article class="twet-1">
+                <div class="left">
+                    <img src="https://pbs.twimg.com/profile_images/1268196215587397634/sgD5ZWuO_400x400.png"
+                         alt="img-microsoft">
+                    <p class="color-blue">Ver todo</p>
+                </div>
+                <div class="right">
+                    <div class="container-parrafo">
+                        <div class="verificacion">
+                            <p class="negrita">Microsoft Surface</p>
+                            <span class="material-symbols-outlined gold"> verified</span>
+                        </div>
+                        <div class="parrafo">
+                            <p class="color-grey surface">@surface</p>
+                            <p class="parrafo-laptop">Laptops designed by Microsoft to keep you in the flow os life. For
+                                technical support, tweet <span class="color-blue">@MicrosoftHelps</span></p>
+                        </div>
+                    </div>
+                </div>
+                <button class="negrita">Seguir</button>
+                <!-------------------------------------------------SEGUNDO TWEET------------------------------------------------------------->
+            </article>
+            <article class="twet-2">
+                <div class="left">
+                    <img class="img-ibai" src="{% static 'twitter/images/ibai.PNG' %}" alt="img-ibai">
+                </div>
+                <div class="right">
+                    <div class="container-parrafo">
+                        <div class="verificacion">
+                            <p class="negrita">Ibai</p>
+                            <span class="material-symbols-outlined color-blue"> verified</span>
+                            <p class="color-grey ibai">@IbaiLlanos 30 ene</p>
+                        </div>
+                        <div class="parrafo">
+                            <p class="parrafo-laptop">El mejor streamer del año, gracias a todos por el apoyo <span
+                                    class="color-blue">&#10084</span> Velada del año III cerrada al 99,9%. Si todo va bien
+                                se anuncia este mes. Esto va a ser una barbaridad.</p>
+                        </div>
+                    </div>
+                    <div class="icons">
+                        <span class="material-symbols-outlined color-grey icon-tamanio">chat_bubble</span>
+                        <p>1.354</p>
+                        <span class="material-symbols-outlined color-grey icon-tamanio">repeat</span>
+                        <p>5.489</p>
+                        <span class="material-symbols-outlined color-grey icon-tamanio">favorite</span>
+                        <p>263,6 mil</p>
+                        <span class="material-symbols-outlined color-grey icon-tamanio">bar_chart</span>
+                        <p>5,5 M</p>
+                        <span class="material-symbols-outlined color-grey icon-tamanio">upload</span>
+                    </div>
+                </div>
+                <span class="material-icons color-grey puntos">more_horiz</span>
+            </article>
+            <!-----------------------------------TERCER TWEET------------------------------------------------------------------------->
+            <article class="twet-3">
+                <div class="left">
+                    <img class="img-ibai" src="{% static 'twitter/images/logo.PNG' %}" alt="img-ibai">
+                </div>
+                <div class="right">
+                    <div class="container-parrafo">
+                        <div class="verificacion">
+                            <p class="negrita">Muebles Talavera</p>
+                            <span class="material-symbols-outlined color-blue"> verified</span>
+                            <p class="color-grey ibai">@muebles-calidad 5h</p>
+                        </div>
+                        <div class="parrafo">
+                            <p class="parrafo-laptop">No te pierdas la calidad de nuestros muebles, con un estilo rustico y
+                                acogedor, perfecto para bolsillos reducidos y espacios reducidos.</p>
+                        </div>
+                    </div>
+                    <div class="fotos-muebles">
+                        <img class="fotos" src="{% static 'twitter/images/1.PNG' %}" alt="lampara-estetica">
+                        <img class="fotos" src="{% static 'twitter/images/2.PNG' %}" alt="zapatillas-estetica">
+                    </div>
+                    <div class="icons">
+                        <span class="material-symbols-outlined color-grey icon-tamanio">chat_bubble</span>
+                        <p>1.354</p>
+                        <span class="material-symbols-outlined color-grey icon-tamanio">repeat</span>
+                        <p>5.489</p>
+                        <span class="material-symbols-outlined color-grey icon-tamanio">favorite</span>
+                        <p>263,6 mil</p>
+                        <span class="material-symbols-outlined color-grey icon-tamanio">bar_chart</span>
+                        <p>5,5 M</p>
+                        <span class="material-symbols-outlined color-grey icon-tamanio">upload</span>
+                    </div>
+                </div>
+                <span class="material-icons color-grey puntos">more_horiz</span>
+            </article>
+        </section>
+    </main>
+    <!------------------------------------------------------------------------------------------------------->
+    <article class="container-article">
+        <section class="container-terminos">
+            <p class="color-grey">Al registrarte, aceptas los <span class="color-blue">Términos de servicio</span> y la
+                <span class="color-blue">Política de privacidad</span>, incluida la política de <span class="color-blue">Uso de Cookies</span>
+            </p>
+        </section>
+        <section class="container-filtros">
+            <h2>Filtros de búsqueda</h2>
+            <div class="personas">
+                <p class="negrita">Personas</p>
+                <div class="linea">
+                    <p>De cualquiera</p>
+                    <span class="material-icons color-blue">check_circle</span>
+                </div>
+                <div class="linea">
+                    <p>Personas a las que sigues</p>
+                    <span class="material-icons color-grey">
+                            radio_button_unchecked
+                            </span>
+                </div>
+            </div>
+            <div class="ubicacion">
+                <p class="negrita">Ubicación</p>
+                <div class="linea">
+                    <p>En cualquier ugar</p>
+                    <span class="material-icons color-blue">check_circle</span>
+                </div>
+                <div class="linea">
+                    <p>Cerca de ti</p>
+                    <span class="material-icons color-grey">
+                            radio_button_unchecked
+                            </span>
+                </div>
+            </div>
+            <p class="busqueda color-blue">Búsqueda avanzada</p>
+        </section>
+        <section class="container-noticias">
+            <h2>Qué está pasando</h2>
+            <div class="personas-noticias">
+                <div class="linea-noticias">
+                    <p class="color-grey">Deportes EN DIRECTO</p>
+                    <p class="negrita">Australian Open 2023</p>
+                </div>
+                <img src="http://technosport.es/images/tenis1.jpg" alt="pista-tenis">
+            </div>
+            <div class="personas-noticias">
+                <div class="linea-noticias">
+                    <p class="color-grey">Tendencia en España</p>
+                    <p class="negrita">HIJO DE TERRORISTA</p>
+                    <p class="color-grey">3.500 Tweets</p>
+                </div>
+                <span class="material-icons more">more_horiz</span>
+            </div>
+            <div class="personas-noticias">
+                <div class="linea-noticias">
+                    <p class="color-grey">Música - Tendencia</p>
+                    <p class="negrita">Punto G</p>
+                    <p class="color-grey">1.800 Tweets</p>
+                </div>
+                <span class="material-icons more">more_horiz</span>
+            </div>
+            <div class="personas-noticias">
+                <div class="linea-noticias">
+                    <p class="color-grey">Deportes - Tendencia</p>
+                    <p class="negrita">Auba</p>
+                    <p class="color-grey">1.073 Tweets</p>
+                </div>
+                <span class="material-icons more">more_horiz</span>
+            </div>
+            <div class="personas-noticias">
+                <div class="linea-noticias">
+                    <p class="color-grey">Tendencia en España</p>
+                    <p class="negrita">Carmen Borrego</p>
+                    <p class="color-grey">1.323 Tweets</p>
+                </div>
+                <span class="material-icons more">more_horiz</span>
+            </div>
+            <p class="mostrar color-blue">Mostrar más</p>
+        </section>
+    </article>
+{% endblock %}
