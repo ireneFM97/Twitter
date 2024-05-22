@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2? family= Roboto:wght@400;500;700;900 & display=swap');
 
-*{
+* {
     margin: 0px;
     box-sizing: border-box;
 }
@@ -8,25 +8,26 @@
 body {
     font-family: 'Roboto', sans-serif;
     display: flex;
-    flex-direction: row; 
-    margin: 0px 270px;
+    flex-direction: row;
+    margin: 0px 200px;
 }
 
-.negrita{
+.negrita {
     font-weight: 700;
 }
 
 .color-grey {
-    color: rgba(89,106,118,255);
+    color: rgba(89, 106, 118, 255);
 }
 
 .color-blue {
-    color: rgba(29,155,240,255);
+    color: rgba(29, 155, 240, 255);
 }
 
 .color-black {
-    color:black;
+    color: black;
 }
+
 /*-----------------------ASIDE----------------------------------------------*/
 
 .container-aside {
@@ -66,14 +67,16 @@ body {
     height: 100vh;
     width: 50%;
 }
+
 .header {
     background-color: white;
     height: 80px;
     width: 100%;
-    border-right: 0.2px solid ;
-    border-left: 0.2px solid ;
+    border-right: 0.2px solid;
+    border-left: 0.2px solid;
     border-color: #c3d6e383;
 }
+
 .nav-top {
     display: flex;
     flex-direction: row;
@@ -84,6 +87,7 @@ body {
     padding-left: 15px;
     padding-right: 15px;
 }
+
 .barra-navegacion {
     display: flex;
     flex-direction: row;
@@ -110,13 +114,14 @@ body {
     padding-right: 15px;
     padding-top: 10px;
     font-size: 15px;
-    color: rgba(89,106,118,255);
+    color: rgba(89, 106, 118, 255);
 }
+
 .blue-line {
     display: flex;
     margin-top: 9px;
     margin-left: 14px;
-    background-color:rgb(29,155,240,255);
+    background-color: rgb(29, 155, 240, 255);
     width: 75px;
     height: 4px;
     border-radius: 20px;
@@ -125,7 +130,7 @@ body {
 .twet-1 {
     height: 170px;
     width: 100%;
-    border: 0.2px solid ;
+    border: 0.2px solid;
     border-color: #c3d6e383;
     display: flex;
     flex-direction: row;
@@ -133,6 +138,7 @@ body {
     gap: 10px;
     position: relative;
 }
+
 /*------------------------FINAL DE HEDADER Y COMIENZO DE TWEET 1----------------------------------------*/
 .twet-1 button {
     position: absolute;
@@ -158,6 +164,7 @@ body {
     height: 50px;
     width: 50px;
 }
+
 .right {
     padding-top: 20px;
 }
@@ -172,18 +179,22 @@ body {
 .gold {
     color: rgb(218, 185, 2);
 }
-.surface{
+
+.surface {
     padding-bottom: 8px;
 }
+
 .parrafo-laptop {
     padding-right: 15px;
+    word-wrap: break-word;
 }
+
 /*------------------------COMIENZO DE TWEET 2----------------------------------------*/
 .twet-2 {
     height: 170px;
     width: 100%;
-    border-right: 0.2px solid ;
-    border-left: 0.2px solid ;
+    border-right: 0.2px solid;
+    border-left: 0.2px solid;
     border-top: 0.2px solid;
     border-color: #c3d6e383;
     display: flex;
@@ -201,6 +212,7 @@ body {
     width: 80px;
     padding: 16px 0px 15px 15px;
 }
+
 .img-ibai {
     border-radius: 30px;
     height: 50px;
@@ -234,23 +246,26 @@ body {
     display: flex;
     align-items: center;
     gap: 6px;
+    justify-content: space-between
 }
+
 .material-symbols-outlined.color-grey.icon-tamanio {
     font-size: 20px;
 }
+
 .icons p {
     padding-right: 40px;
     font-size: 14px;
-    color:rgb(89,106,118,255);
+    color: rgb(89, 106, 118, 255);
 }
 
 /*------------------------COMIENZO DE TWEET 3----------------------------------------*/
 
 .twet-3 {
-    height:516px;
+    height: 516px;
     width: 100%;
-    border-right: 0.2px solid ;
-    border-left: 0.2px solid ;
+    border-right: 0.2px solid;
+    border-left: 0.2px solid;
     border-top: 0.2px solid;
     border-color: #c3d6e383;
     display: flex;
@@ -268,6 +283,7 @@ body {
     width: 80px;
     padding: 16px 0px 15px 15px;
 }
+
 .img-ibai {
     border-radius: 30px;
     height: 50px;
@@ -302,24 +318,30 @@ body {
     align-items: center;
     gap: 6px;
 }
+
 .material-symbols-outlined.color-grey.icon-tamanio {
     font-size: 20px;
 }
+
 .icons p {
     padding-right: 40px;
     font-size: 14px;
-    color:rgb(89,106,118,255);
+    color: rgb(89, 106, 118, 255);
 }
+
 .fotos-muebles {
     width: 450px;
     display: flex;
     flex-direction: column;
-    padding-left: 40px;
+    padding: 0px 40px;
     gap: 10px;
+    margin: 0 auto;
 }
+
 .fotos {
     height: 190px;
 }
+
 /*-----------------------ARTICLE----------------------------------------------*/
 .container-article {
     height: 100vh;
@@ -330,11 +352,12 @@ body {
     flex-direction: column;
     gap: 20px;
 }
+
 .container-terminos {
     height: 10%;
     width: 80%;
     border-radius: 8px;
-    border: 0.2px solid ;
+    border: 0.2px solid;
     border-color: #c3d6e383;
     margin-top: -20px;
     display: flex;
@@ -343,9 +366,9 @@ body {
 }
 
 .container-terminos p {
-   margin-top: 24px; 
-   font-size: 14px;
-   padding-left: 10px;
+    margin-top: 24px;
+    font-size: 14px;
+    padding-left: 10px;
 
 }
 
@@ -353,7 +376,7 @@ body {
     height: 40%;
     width: 80%;
     border-radius: 8px;
-    border: 0.2px solid ;
+    border: 0.2px solid;
     border-color: #c3d6e383;
     padding-top: 10px;
     padding-left: 20px;
@@ -374,7 +397,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding-right: 10px;
-    color: rgba(89,106,118,255);
+    color: rgba(89, 106, 118, 255);
     font-size: 15px;
 }
 
@@ -393,7 +416,7 @@ body {
     height: 60%;
     width: 80%;
     border-radius: 8px;
-    border: 0.2px solid ;
+    border: 0.2px solid;
     border-color: #c3d6e323;
     background-color: #c3d6e323;
     padding-top: 10px;
@@ -414,18 +437,153 @@ body {
     flex-direction: column;
     font-size: 14px;
 }
+
 .personas-noticias img {
     height: 50px;
     width: 70px;
     border-radius: 13px;
     margin-right: 20px;
 }
+
 .more {
     margin-right: 20px;
-    color: rgba(89,106,118,255);
+    color: rgba(89, 106, 118, 255);
 }
 
 .mostrar {
     padding-bottom: 20px;
     font-size: 15px;
 }
+
+@media screen and (max-width: 1500px) {
+    .icons p {
+        padding-right: 30px;
+    }
+}
+
+@media screen and (max-width: 1464px) {
+    body {
+        margin: 0px 100px;
+    }
+
+    .parrafo-laptop {
+        font-size: 15px;
+    }
+
+    .icons {
+        gap: 3px;
+    }
+
+    .icons p {
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    body {
+        margin: 0px 95px;
+    }
+
+}
+
+@media screen and (max-width: 1300px) {
+    body {
+        margin: 0px 80px;
+    }
+
+    .container-terminos p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    body {
+        margin: 0px 20px;
+    }
+
+    .icons {
+        gap: 2px;
+    }
+
+    .fotos-muebles {
+        width: 400px;
+        height: 300px;
+        margin-bottom: 60px;
+    }
+
+
+}
+
+@media screen and (max-width: 1000px) {
+
+    .icons p {
+        padding-right: 20px;
+    }
+
+    .parrafo-laptop {
+        font-size: 14px;
+    }
+
+    .container-aside {
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 960px) {
+
+    .container-main {
+        height: 100vh;
+        width: 70%;
+    }
+
+    .container-article {
+        display: none;
+    }
+
+    .parrafo-laptop {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .palabraD {
+        display: none;
+    }
+
+    body {
+        flex-direction: column-reverse;
+        padding: 10px 0;
+    }
+
+    .container-aside {
+        flex: 0 0 auto;
+        width: 100%;
+        flex-direction: row;
+        align-content: space-between;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0;
+        height: auto;
+    }
+
+    .container-main {
+        flex: 1;
+        width: 100%;
+    }
+
+    .container-article {
+        flex: 0 0 auto;
+        width: 100%;
+        align-items: center;
+        padding: 0;
+        height: auto;
+    }
+
+    .container-aside img {
+        height: 30px;
+        width: 30px;
+    }
+
+}
+
+@media screen and (max-width: 760px) {}
